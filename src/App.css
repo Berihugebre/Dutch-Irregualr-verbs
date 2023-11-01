@@ -1,0 +1,37 @@
+.container-card{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-border{
+  border: 1px solid red;
+}
+.input-border:focus{
+  border: 1px solid red;
+}
+
+.info{
+  font-size: smaller;
+}
+.nav-link{
+  border: 1px solid blue;
+}
+.active {
+  background-color: bisque;
+}
+
+.page{
+  width: 50px !important;
+}
+
+.flex-nowrap{
+  width:   28rem;
+}
+
+.btn-primary{
+  margin-right: 4rem;
+}
