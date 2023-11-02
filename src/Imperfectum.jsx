@@ -1,7 +1,7 @@
 
 import './App.css';
 import { verbs } from './verbs'
-import { useState } from 'react';
+import {  useState } from 'react';
 
 function Imperfectum() {
   const [count, setCount] =  useState(0);
@@ -11,10 +11,8 @@ function Imperfectum() {
   const [page, setPage]=useState(0)
   let total = verbs.length;
 
-  const handleClick = ()=>{
-    
-
-   
+  const handleClick = (e)=>{
+    e.preventDefault()
     const isCorrect = answers.indexOf(value) !== -1;
     
     if(isCorrect){
@@ -52,6 +50,8 @@ function Imperfectum() {
 
   }
 
+
+
   const handleRandom = ()=>{
     const r =Math.floor( Math.random() * 95);
     setCount(r)
@@ -65,7 +65,7 @@ function Imperfectum() {
             <span className="input-group-text ml-5" id="addon-wrapping">Ga naar vraag: </span>
             <input type="number" className="form-control page" value={page} onChange={handlePage} placeholder="no" aria-label="no" aria-describedby="addon-wrapping" />
         </div>
-        <div className="card text-center" style={{width:"28rem"}} >
+        <div className="card text-center" style={{width:"26rem"}} >
             <div className="card-body" >
               <h5 className="card-title">{count+1}. {verbs[count].infinitief} - <i>{verbs[count].translation}</i></h5>
               <br />
