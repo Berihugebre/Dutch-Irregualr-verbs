@@ -82,7 +82,7 @@ export const verbs = [
     {infinitief: "vliegen", imperfectum: ["vloog", "vlogen"], perfectum: ["hebben/zijn", "gevlogen"], translation: "to fly"},
     {infinitief: "voorkomen", imperfectum: ["voorkwam", "voorkwamen"], perfectum: ["hebben", "voorkomen"], translation: "prevent"},
     {infinitief: "vragen", imperfectum: ["vroeg", "vroegen"], perfectum: ["hebben", "gevraagd"], translation: "to ask"},
-    {infinitief: "vriezen", imperfectum: ["vroor", "sloten"], perfectum: ["het heeft", "gevroren"], translation: "freeze"},
+    {infinitief: "vriezen", imperfectum: ["vroor", ""], perfectum: ["het heeft", "gevroren"], translation: "freeze"},
     {infinitief: "wassen", imperfectum: ["waste", "wasten"], perfectum: ["hebben", "gewassen"], translation: "to wash"},
     {infinitief: "wegen", imperfectum: ["woog", "wogen"], perfectum: ["hebben", "gewogen"], translation: "weigh"},
     {infinitief: "weten", imperfectum: ["wist", "wisten"], perfectum: ["hebben", "geweten"], translation: "know"},
