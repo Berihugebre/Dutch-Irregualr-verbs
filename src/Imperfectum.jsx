@@ -13,7 +13,8 @@ function Imperfectum() {
 
   const handleClick = (e)=>{
     e.preventDefault()
-    const isCorrect = answers.indexOf(value) !== -1;
+    const givenAnswer = value.trim()
+    const isCorrect = answers.indexOf(givenAnswer) !== -1;
     
     if(isCorrect){
       setValue("");

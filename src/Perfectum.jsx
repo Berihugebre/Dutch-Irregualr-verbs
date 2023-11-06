@@ -14,7 +14,8 @@ function Imperfectum() {
 
   const handleClick = (e)=>{
     e.preventDefault()
-    const isCorrect = answers[1] === value;
+    const givenAnswer = value.trim()
+    const isCorrect = answers[1] === givenAnswer;
     
     if(isCorrect){
       setValue("");
